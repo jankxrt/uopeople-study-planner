@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Syne";
+    src: url(fonts/Syne-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+body{
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h3{
+    font-family: "Montserrat";
+    font-style: italic;
+    margin-top: 0;
+}
+
+header h1{
+    margin-bottom: 0;
+    font-family: "Syne";
+}
+
+
+
+#input-wrapper{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+#course{
+    display: flex;
+    flex-direction: column;
+}
+
+#grade{
+    display: flex;
+    flex-direction: column;
+}
+
+#add-wrapper {
+    margin-top: 5%;
+}
+
+#add {
+    display: flex;
+    justify-content: center;
+}
+
+#add button {
+    border: none;
+    border-radius: 3vw;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#list-heading {
+    display: flex;
+    gap: 70%;
+}
+
+#list-heading h4{
+    font-family: "Montserrat";
+}
